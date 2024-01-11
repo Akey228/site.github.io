@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel= "stylesheet" type= "text/CSS" href= "/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/simplebar.css">
+    
+    <title>Купить саженцы плодовых и декоративных деревьев АБАКАН</title>
+
+    <!-- ШРИФТЫ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="wrapper">
+
+            <img src="materials/photo/logo_photo.png" alt="logo" class="logo_photo">
+
+            <input type="search" placeholder="🔍︎Я хочу найти..." class="header_input">
+
+            
+            <div class="header_button ">
+                <a href="index.html">
+                    <img src="materials/photo/fi-sr-home.svg" alt="katalog" class="header_button_home gomo" id="katalog">
+                    <p class="header_button_text">КАТАЛОГ</p>
+                </a>
+            </div>
+
+            <div class="header_button b">
+                <a href="">
+                    <img src="materials/photo/fi-sr-thumbs-up.svg" alt="katalog" class="header_button_home gomo" id="otzav">
+                    <p class="header_button_text">ОТЗЫВЫ</p>
+                </a>
+            </div>
+
+            <div class="header_button c">
+                <a href="">
+                    <img src="materials/photo/fi-sr-shopping-cart.svg" alt="katalog" class="header_button_home gomo" id="trash">
+                    <p class="header_button_text">КОРЗИНА</p>
+                </a>
+            </div>
+            <div class="header_wrapper_info">
+                <p>+7(111)111 11-11</p>
+                <p>Красивая 28</p>
+            </div>
+            <!--  -->
+        <div class="header_cart cart active" tabindex="0">
+            <div class="cart_text">
+                Корзина
+                <span class="cart_quantuly">0</span>
+            </div>
+
+            <div class="cart-content">
+                <ul class="cart-content_list" data-simplebar>
+                    <!-- <li class="cart-content_item">
+                        <article class="cart-content_product cart-product">
+                            <img src="materials/photo/iphone_korzina.png" alt="iphone14" class="cart-product_img">
+                            <div class="cart-product_text">
+                                <h3 class="cart-product_title">6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+                                <span class="cart-product_price">100 299 ₽</span>
+                            </div>
+                            <button class="cart-product_delete" aria-label="Удалить товар"></button>
+                        </article>
+                    </li> -->
+                        
+                    </li>
+                </ul>
+                <div class="cart-content_bottom"></div>
+                    <div class="cart-content_fullprice">
+                        <span>Итого:</span>
+                        <span class="fullprice">100 299 ₽</span>
+                    </div>
+                    <button class="cart-content_btn btn">Перейти в корзину</button>
+                </div>
+
+
+        </div>
+     </div>
+
+    </header>
+
+    <!-- КАТАЛОГ -->
+    
+    <section class="catalog">
+        <!-- <article class="product">
+            <div class="product_image">
+                <div class="product_swich image-swich">
+                    <div class="image_switch_item">
+                        <div class="image-switch_img"><img src="materials/photo/iphone_photo_tovar1.png" alt="6.1 Смартфон Apple iPhone 14 128 ГБ черный"></div>
+                    </div>
+                    <div class="image_switch_item">
+                        <div class="image-switch_img"><img src="materials/photo/iphone_photo_tovar1.png" alt="6.1 Смартфон Apple iPhone 14 128 ГБ черный"></div>
+                    </div>
+                    <div class="image_switch_item">
+                        <div class="image-switch_img"><img src="materials/photo/iphone_photo_tovar1.png" alt="6.1 Смартфон Apple iPhone 14 128 ГБ черный"></div>
+                    </div>
+                </div>
+                <ul class="product_image-pagination image-pagination" aria-hidden="true">
+                    <li class="image-pagination_item"></li>
+                </ul>
+            </div>
+            h3.product
+        </article> -->
+        <div class="tovar1" id="tovar1">
+            <article class="product">
+                <a href="">
+            <button class="bag" ><ion-icon name="bag-outline" class="icon_bag" id="bag"></ion-icon></button> 
+                </a>
+
+                <div class="tovar1_img">
+                    <img src="materials/photo/iphone_photo_tovar1.png" alt="tovar1" class="tovar1_imgclass">
+                </div>
+
+                <div class="tovar1_name" >
+                    <h3>6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+                </div>
+
+                <ul class="rating" id="raiting">
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star-half"></ion-icon></li>
+                    34 отзыва
+                </ul>
+
+                <div class="price_and_buy">
+
+                    <div class="tovar1_price">
+                        <span class="price">100 299₽</span>
+                    </div>
+        
+                    <a class="tovar1_buy" id="buy">
+                        <button class="product_btn btn" id="product_btn" >Добавить в корзину</button>
+                    </a>
+                </article>
+            </div>
+        </div>
+
+
+        <div class="tovar2" id="tovar2">
+ <article class="product">
+                <a href="">
+            <button class="bag" ><ion-icon name="bag-outline" class="icon_bag" id="bag"></ion-icon></button> 
+                </a>
+
+                <div class="tovar1_img">
+                    <img src="materials/photo/iphone_photo_tovar1.png" alt="tovar1" class="tovar1_imgclass">
+                </div>
+
+                <div class="tovar1_name" >
+                    <h3>6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+                </div>
+
+                <ul class="rating" id="raiting">
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star-half"></ion-icon></li>
+                    34 отзыва
+                </ul>
+
+                <div class="price_and_buy">
+
+                    <div class="tovar1_price">
+                        <span class="price">100 299₽</span>
+                    </div>
+        
+                    <a class="tovar1_buy" id="buy">
+                        <button class="product_btn btn" id="product_btn" >Добавить в корзину</button>
+                    </a>
+                </article>
+            </div>
+        </div>
+
+        <div class="tovar3" id="tovar3">
+             <article class="product">
+                <a href="">
+            <button class="bag" ><ion-icon name="bag-outline" class="icon_bag" id="bag"></ion-icon></button> 
+                </a>
+
+                <div class="tovar1_img">
+                    <img src="materials/photo/iphone_photo_tovar1.png" alt="tovar1" class="tovar1_imgclass">
+                </div>
+
+                <div class="tovar1_name" >
+                    <h3>6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+                </div>
+
+                <ul class="rating" id="raiting">
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star"></ion-icon></li>
+                    <li><ion-icon name="star-half"></ion-icon></li>
+                    34 отзыва
+                </ul>
+
+                <div class="price_and_buy">
+
+                    <div class="tovar1_price">
+                        <span class="price">100 299₽</span>
+                    </div>
+        
+                    <a class="tovar1_buy" id="buy">
+                        <button class="product_btn btn" id="product_btn" >Добавить в корзину</button>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="tovar1" id="tovar1">
+            
+            <a href="">
+           <button class="bag" ><ion-icon name="bag-outline" class="icon_bag" id="bag"></ion-icon></button> 
+            </a>
+
+            <div class="tovar1_img">
+                <img src="materials/photo/iphone_photo_tovar1.png" alt="tovar1" class="tovar1_img">
+            </div>
+
+            <div class="tovar1_name" >
+                <h3>6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+            </div>
+
+            <ul class="rating" id="raiting">
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star-half"></ion-icon></li>
+                34 отзыва
+               </ul>
+
+            <div class="price_and_buy">
+
+                <div class="tovar1_price">
+                    <span class="price">100 299₽</span>
+                </div>
+    
+                <a href="html/iphone14.html" class="tovar1_buy" id="buy">
+                    <button class="iphone14buttonbuy btn" id="iphone14buttonbuy" >Добавить в корзину</button>
+                </a>
+
+
+            </div>
+        </div>
+
+
+        <div class="tovar2" id="tovar2">
+
+            <a href="">
+                <button class="bag" ><ion-icon name="bag-outline" class="icon_bag" id="bag"></ion-icon></button> 
+                 </a>
+     
+                 <div class="tovar1_img">
+                     <img src="materials/photo/iphone_photo_tovar1.png" alt="tovar1" class="tovar1_img">
+                 </div>
+     
+                 <div class="tovar1_name" >
+                     <h3>6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+                 </div>
+     
+                 <ul class="rating" id="raiting">
+                     <li><ion-icon name="star"></ion-icon></li>
+                     <li><ion-icon name="star"></ion-icon></li>
+                     <li><ion-icon name="star"></ion-icon></li>
+                     <li><ion-icon name="star"></ion-icon></li>
+                     <li><ion-icon name="star-half"></ion-icon></li>
+                     34 отзыва
+                    </ul>
+     
+                 <div class="price_and_buy">
+     
+                     <div class="tovar1_price">
+                         <span class="price">100 299₽</span>
+                     </div>
+         
+                     <a href="html/iphone14.html" class="tovar1_buy" id="buy">
+                         <button class="iphone14buttonbuy btn" id="iphone14buttonbuy" >Добавить в корзину</button>
+                     </a>
+            </div>
+        </div>
+
+        <div class="tovar3" id="tovar3">
+            <a href="">
+                <button class="bag" ><ion-icon name="bag-outline" class="icon_bag" id="bag"></ion-icon></button> 
+                 </a>
+     
+                 <div class="tovar1_img">
+                     <img src="materials/photo/iphone_photo_tovar1.png" alt="tovar1" class="tovar1_img">
+                 </div>
+     
+                 <div class="tovar1_name" >
+                     <h3>6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+                 </div>
+     
+                 <ul class="rating" id="raiting">
+                     <li><ion-icon name="star"></ion-icon></li>
+                     <li><ion-icon name="star"></ion-icon></li>
+                     <li><ion-icon name="star"></ion-icon></li>
+                     <li><ion-icon name="star"></ion-icon></li>
+                     <li><ion-icon name="star-half"></ion-icon></li>
+                     34 отзыва
+                    </ul>
+     
+                 <div class="price_and_buy">
+     
+                     <div class="tovar1_price">
+                         <span class="price">100 299₽</span>
+                     </div>
+         
+                     <a href="html/iphone14.html" class="tovar1_buy" id="buy">
+                         <button class="iphone14buttonbuy btn" id="iphone14buttonbuy" >Добавить в корзину</button>
+                     </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="tovar1" id="tovar1">
+
+            <div class="tovar1_img">
+                <img src="materials/photo/fgfg.jpg" alt="tovar1" class="tovar1_img">
+            </div>
+
+            <div class="tovar1_name" >
+                <h3>6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+            </div>
+
+            <ul class="rating" id="raiting">
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star-half"></ion-icon></li>
+                34 отзыва
+               </ul>
+
+            <div class="price_and_buy">
+
+                <div class="tovar1_price">
+                    <span class="price">100 299₽</span>
+                </div>
+    
+                <a href="html/iphone14.html" class="tovar1_buy" id="buy">
+                    <button class="iphone14buttonbuy" id="iphone14buttonbuy" >Купить</button>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="tovar2" id="tovar2">
+
+            <div class="tovar1_img">
+                <img src="materials/photo/fgfg.jpg" alt="tovar1" class="tovar1_img">
+            </div>
+
+            <div class="tovar1_name">
+                <h3>6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+            </div>
+
+            <ul class="rating">
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star-half"></ion-icon></li>
+                34 отзыва
+               </ul>
+
+            <div class="price_and_buy">
+
+                <div class="tovar1_price">
+                    <span class="price">100 299₽</span>
+                </div>
+    
+                <a href="" class="tovar1_buy">
+                    <button class="product_btn" id="product_btn" >Купить</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="tovar3" id="tovar3">
+
+            <div class="tovar1_img">
+                <img src="materials/photo/fgfg.jpg" alt="tovar1" class="tovar1_img">
+            </div>
+
+            <div class="tovar1_name">
+                <h3>6.1" Смартфон Apple iPhone 14 128 ГБ черный</h3>
+            </div>
+
+            <ul class="rating">
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star-half"></ion-icon></li>
+                34 отзыва
+               </ul>
+
+            <div class="price_and_buy">
+
+                <div class="tovar1_price">
+                    <span class="price">100 299₽</span>
+                </div>
+    
+                <a href="" class="tovar1_buy">
+                    <button class="product_btn" id="product_btn" >Купить</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="korzina">
+        <h1>КОРЗИНА</h1>
+        .
+        <!-- <div class="plus">
+            <button data-id="shs824" class="button-primary plus">+</button>
+        </div>
+        <div class="minus" >
+            <button data-id="shs824" class="button-primary minus">-</button>
+        </div> -->
+    </section>
+
+    <section>
+        <div class="open">Открыть корзину</div>
+        <div class="shop">
+            <div class="product">
+                <div class="product-card">
+                    <img src="materials/photo/fgfg.jpg" alt="">
+                </div>
+                <button>Купить</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="left">
+
+        </div>
+
+        <div class="right">
+
+        </div>
+    </footer>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <!-- ПОДКЛЮЧЕНИЕ -->
+
+
+    <!-- Иконки -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Джава -->
+
+    <script src="/js/cart.js"></script>
+
+    <script src="/js/simplebar.js"></script>
+
+    <script src="/js/korzina.js"></script>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+<!-- <section class="catalog">
+    <div class="row">
+        <div class="tovar1">
+            <div class="product">
+
+                <div class="product_image">
+                    <img src="https://via.placeholder.com/300x400" alt="">
+               </div>
+
+               <div class="product_info">
+                <h3>Название товара</h3>
+               </div>
+
+               <ul class="rating">
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star"></ion-icon></li>
+                <li><ion-icon name="star-half"></ion-icon></li>
+               </ul>
+
+               <div>
+                <span class="price">230₽</span>
+                <button class="add_to_cart"><ion-icon name="heart"></ion-icon></button>
+               </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>           -->
